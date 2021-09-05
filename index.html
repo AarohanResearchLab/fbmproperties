@@ -10,6 +10,8 @@
 	<title>FBM Properties</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!-- <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/> -->
+
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
@@ -21,7 +23,7 @@
 
 		.img-container {
 			position: relative;
-			text-align: center;
+			text-align: left;
 			color: white;
 		}
 
@@ -32,9 +34,12 @@
 		}
 
 		.column {
-			float: left;
+			margin: auto;
 			width: 33.33%;
 			padding: 5px;
+		}
+		.row {
+			margin: auto;
 		}
 
 		/* Clearfix (clear floats) */
@@ -95,7 +100,7 @@
 			<div class="inner">
 
 				<header>
-					<h2><img src="./images/logo-gold.png" /></h2>
+					<h2><span class="small-screen-view">FBM PROPERTIES</span><img class="desktop-view-logo"src="./images/logo-gold.png" /></h2>
 				</header>
 				<p><strong>A real estate advisory firm</strong>
 					<br />
@@ -128,7 +133,7 @@
 				</p>
 			</header>
 
-			<!-- One -->
+			<!-- Services -->
 			<section class="wrapper style2 container special-alt">
 
 				<div class="col-8 col-12-narrower">
