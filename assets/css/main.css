@@ -2535,6 +2535,7 @@ input, select, textarea {
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
+		width: 100%;
 	}
 
 		#banner .inner {
@@ -3338,4 +3339,25 @@ input, select, textarea {
 				height: 34px;
 			}
 
+	}
+
+	/* Custom-ARLS */
+	.small-screen-view {
+		display: none;
+		
+	}
+	.desktop-view-logo {
+		display: block;
+	}
+	@media screen and (max-width: 600px) {
+		.small-screen-view {
+			display: block;
+		}
+		.desktop-view-logo {
+			display: none;
+		}
+		.bottom-left{
+			font-size: 8px;
+			font-weight: bolder;
+		}
 	}
